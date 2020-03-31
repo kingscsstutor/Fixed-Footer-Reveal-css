@@ -1,0 +1,51 @@
+html,
+body {
+  background: white;
+}
+
+body {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 300px;
+  box-shadow: 0 3px 15px 2px rgba(61, 61, 61, 0.9);
+}
+
+section {
+  padding: 150px;
+  width: 75%;
+  margin: auto;
+  min-width: 460px;
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+  background: #6c0099;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer--social {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  float: none;
+  position: relative;
+}
+
+.footer .footer--social li {
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+}
+
+.social-lists li a {
+  color: white;
+}
